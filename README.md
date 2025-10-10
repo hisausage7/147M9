@@ -67,6 +67,7 @@
           <p>3. 作答途中可隨時點擊「離開考試」提前結束。 / You can click "Leave Quiz" anytime to finish early.</p>
           <p>4. 完成後會自動顯示所有答題結果與成績。 / Results and scores will be displayed after completion.</p>
           <p>5. 答對題目顯示O，答錯題目顯示X。 / Correct answers will show O, incorrect answers will show X.</p>
+          <P>6. 測驗過程為亂序出題。 / The test process was chaotic and disordered in setting questions.</P>
           <p>!版權及源代碼所有-航機系008沈崑宸!</P>
           <P>!僅作為自我測驗使用!</p>
         </div>
