@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>147測驗｜單一檔案版</title>
     <style>
+      /* 回首頁浮動按鈕 */
+#homeBtn {
+  position: fixed;
+  top: 20px;
+  left: 20px;           /* 右上是深色模式鍵，回首頁放左上避免打架 */
+  padding: 10px 16px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1em;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  transition: background .2s, transform .15s, box-shadow .2s;
+  z-index: 1000;
+}
+#homeBtn:hover {
+  background: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,.2);
+}
+body.dark #homeBtn {
+  background: #2e7d32;
+}
+body.dark #homeBtn:hover {
+  background: #25652a;
+}
+
       body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -57,6 +85,8 @@
   </head>
   <body>
     <button id="darkModeToggle">深色模式 / Dark Mode</button>
+    <a id="homeBtn" href="https://hisausage7.github.io/147test/" title="回首頁">🏠 回首頁</a>
+
     <div id="container">
       <div id="welcome">
         <h1>147測驗M9校內考</h1>
