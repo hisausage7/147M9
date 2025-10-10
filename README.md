@@ -59,7 +59,7 @@
     <button id="darkModeToggle">深色模式 / Dark Mode</button>
     <div id="container">
       <div id="welcome">
-        <h1>147測驗M9校園考</h1>
+        <h1>147測驗M9校內考</h1>
         <div id="rules">
           <p><strong>考試注意事項 / Exam Rules:</strong></p>
           <p>1. 請輸入姓名後才能開始作答。 / You must enter your name to start the quiz.</p>
