@@ -72,7 +72,7 @@
         </div>
         <input type="text" id="nameInput" placeholder="輸入姓名 / Enter your name"
           style="width:100%;padding:8px;margin-bottom:10px;font-size:1.4em;" />
-        <input type="number" id="questionLimit" placeholder="輸入題數,至多101題 / Enter number of questions"
+        <input type="number" id="questionLimit" placeholder="輸入題數,至多102題 / Enter number of questions"
           style="width:100%;padding:8px;margin-bottom:10px;font-size:1.4em;" />
         <button id="startBtn" class="btn">開始測驗 / Start Quiz</button>
       </div>
@@ -294,8 +294,8 @@
             options: ["A. make random eye movements","B. keep the head still when moving the eyes","C. make frequent eye movements"], answer: "C" },
           { question: "A complex system in terms of one person's conception of it is said to be:",
             options: ["A. opaque","B. transparent","C. easily understood"], answer: "A" },
-          { question: "A line used to show an edge that is not visible is a",
-            options: ["A. Verbal","B. Written","C. Written plus verbal"], answer: "C" },
+          { question: "The Hawthorne Effect is linked to:",
+                  options: ["A. perceived recognition", "B. poor working conditions","C. regular working hours"], answer: "A" },
           { question: "Good communication skills should be possessed by the:",
             options: ["A. sender and the recipient","B. sender only","C. recipient only"], answer: "A" },
           { question: "Information on an urgent safety-related maintenance action can be disseminated by:",
@@ -352,6 +352,11 @@
                       "C. turn off the gas supply, ventilate the area and then treat the casualties"], answer: "B" },
           { question: "Hazards found in the workplace are the result of unsafe:",
             options: ["A. human conditions only","B. environmental conditions only","C. human and environmental conditions"], answer: "C" },
+            {
+        question: "What constitutes a good handover?",
+        options: ["A. Verbal", "B. Written", "C. Written plus verbal"],
+        answer: "C",
+      },
         ];
 
         function shuffle(array) {
