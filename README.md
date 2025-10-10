@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<吃飽太閒做的網站，能幫到你我覺得很開心>
 <html lang="zh-Hant">
   <head>
     <meta charset="utf-8" />
