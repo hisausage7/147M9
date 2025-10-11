@@ -424,7 +424,7 @@
           { question: "When faced with casualties that have been overcome with gas, you should:",
             options: ["A. treat the casualties, ventilate the area and then turn off the gas supply",
                       "B. turn off the gas supply, ventilate the area and then treat the casualties",
-                      "C. turn off the gas supply, ventilate the area and then treat the casualties"], answer: "B" },
+                      "C. ventilate the area, treat the casualties and then turn off the gas supply"], answer: "B" },
           { question: "Hazards found in the workplace are the result of unsafe:",
             options: ["A. human conditions only","B. environmental conditions only","C. human and environmental conditions"], answer: "C" },
             {
